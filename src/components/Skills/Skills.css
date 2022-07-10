@@ -1,0 +1,19 @@
+.skills{
+    background-color: green;
+    justify-content: center;
+    flex-wrap: nowrap;
+    display: flexbox;
+    
+}
+
+.imgsdiv{
+    
+    justify-content: center;
+    
+}
+
+.imgs{
+    max-width: 70px;
+    margin: 10px;
+}
+

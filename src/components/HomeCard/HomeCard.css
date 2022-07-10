@@ -1,0 +1,80 @@
+.HomeCard{
+    position: relative;
+    
+    border: black solid 3px;
+}
+
+h5{
+    float: left;
+    color : black;
+    position: relative;
+}
+
+h5 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: white;
+    border-left: 1px solid #000;
+    animation: maquina 2s forwards alternate steps(34);
+}
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0%;
+    }
+}
+
+.card-body{
+    margin:auto;
+    display: table;
+}
+
+
+.contenedor{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+    position: relative;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.move{
+
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+}
+
+ul , p{
+    margin: 0;
+}
+
+@keyframes cambiar{
+    0%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: 0;
+    }
+    40%{
+        margin-top: -40px;
+    }
+    
+}
+
+.img1{
+    max-width: 150px;
+}
