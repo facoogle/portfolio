@@ -1,19 +1,19 @@
+.skill h1{
+    justify-content: center;
+    display: flex;
+}
+
+
 .skills{
-    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(55px,1fr));
+    margin:15px;
+    gap: 25px;
     justify-content: center;
-    flex-wrap: nowrap;
-    display: flexbox;
-    
 }
 
-.imgsdiv{
-    
-    justify-content: center;
-    
-}
-
-.imgs{
-    max-width: 70px;
-    margin: 10px;
+.skills p{
+    text-align: center;
+    font-size: 10px;
 }
 
